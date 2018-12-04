@@ -1,0 +1,8 @@
+prefix=/home/rajeev/SelfDrivingCar/Udacity/TERM3/Capstone-SDC/ros/devel
+
+Name: styx
+Description: Description of styx
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/rajeev/SelfDrivingCar/Udacity/TERM3/Capstone-SDC/ros/devel/lib 
+Requires: 

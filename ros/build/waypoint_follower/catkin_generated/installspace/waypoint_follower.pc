@@ -1,0 +1,8 @@
+prefix=/home/rajeev/SelfDrivingCar/Udacity/TERM3/Capstone-SDC/ros/install
+
+Name: waypoint_follower
+Description: Description of waypoint_follower
+Version: 0.0.0
+Cflags: -I/home/rajeev/SelfDrivingCar/Udacity/TERM3/Capstone-SDC/ros/install/include
+Libs: -L/home/rajeev/SelfDrivingCar/Udacity/TERM3/Capstone-SDC/ros/install/lib -llibwaypoint_follower
+Requires: roscpp std_msgs tf geometry_msgs styx_msgs

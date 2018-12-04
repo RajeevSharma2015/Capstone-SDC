@@ -1,0 +1,8 @@
+prefix=/home/rajeev/SelfDrivingCar/Udacity/TERM3/Capstone-SDC/ros/devel
+
+Name: styx_msgs
+Description: Description of styx_msgs
+Version: 0.0.0
+Cflags: -I/home/rajeev/SelfDrivingCar/Udacity/TERM3/Capstone-SDC/ros/devel/include
+Libs: -L/home/rajeev/SelfDrivingCar/Udacity/TERM3/Capstone-SDC/ros/devel/lib 
+Requires: 
