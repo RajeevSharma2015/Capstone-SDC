@@ -65,7 +65,7 @@ roslaunch launch/styx.launch
 * Setup - Udacity GPU workspace 
 * VGG16 - TL trained classifier used
 
-    Youtube link : 
+    Youtube link : https://youtu.be/2t5HuuquY-8
     
     #### Conclusion - Fully Loaded Feature Testing
     * SDC start normally and initiate following waypoints
@@ -75,4 +75,4 @@ roslaunch launch/styx.launch
     * Submission and a final trial on Carla seems to be a way forward to test final result.
 
 ### Reference Images: 
-All reference images and project report kept in IMG-DOC folder 
+Reference images and a project report is kept in IMG-DOC folder.
