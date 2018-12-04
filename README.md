@@ -17,27 +17,38 @@ In Traffic Light Detection, we designed a detection node that would take the cur
 
 Finally, the Waypoint Follower would take information from the traffic light detection and the current waypoints and update the target velocities for each waypoint based on this information
 
+### Installation 
+* Be sure that your workstation is running Ubuntu 16.04 Xenial Xerus or Ubuntu 14.04 Trusty Tahir. [Ubuntu downloads can be found here](https://www.ubuntu.com/download/desktop).
+* If using a Virtual Machine to install Ubuntu, use the following configuration as minimum:
+  * 2 CPU
+  * 2 GB system memory
+  * 25 GB of free hard drive space
 
-### Building and running the project
+The Udacity provided virtual machine has ROS and Dataspeed DBW already installed, so you can skip the next two steps if you are using this.
 
-This project requires the GPU version of Tensorflow along with the CUDA and cuDNN libraries, python 2.7, as well as the following libraries defined more specifically in `requirements.txt`:
+* Follow these instructions to install ROS
+  * [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu) if you have Ubuntu 16.04.
+  * [ROS Indigo](http://wiki.ros.org/indigo/Installation/Ubuntu) if you have Ubuntu 14.04.
+* [Dataspeed DBW](https://bitbucket.org/DataspeedInc/dbw_mkz_ros)
+  * Use this option to install the SDK on a workstation that already has ROS installed: [One Line SDK Install (binary)](https://bitbucket.org/DataspeedInc/dbw_mkz_ros/src/81e63fcc335d7b64139d7482017d6a97b405e250/ROS_SETUP.md?fileviewer=file-view-default)
+* Download the [Udacity Simulator](https://github.com/udacity/CarND-Capstone/releases/tag/v1.2).
 
-  * Flask
-  * attrdict
-  * eventlet
-  * python-socketio
-  * numpy
-  * Pillow
-  * scipy
-  * keras
-  * h5py
-  * requests
-
-These modules can be installed using: `pip install -r requirements.txt` from the root of the project.  
-
-Traffic light classifier model is take from : 
-
-Next go into the `/ros` directory and run `catkin_make` to build the ROS project. Be sure to source the project by running `. devel/setup.sh`.  At this point, if your environment is set up properly, you should be able to launch ROS with `roslaunch launch/styx.launch`.
+### Usage
+1. Clone the project repository
+```bash
+git clone https://github.com/udacity/CarND-Capstone.git
+```
+2. Install python dependencies
+```bash
+cd CarND-Capstone
+pip install -r requirements.txt
+```
+3. Make and run styx
+```bash
+cd ros
+catkin_make
+source devel/setup.sh
+roslaunch launch/styx.launch
 
 Reference Video Links: 
 (a) Project execution while CAMERA OFF and SDC running in autonomous mode
