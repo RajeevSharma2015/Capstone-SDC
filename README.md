@@ -1,17 +1,24 @@
-# SDC Fun
+# IndiConcept Team
 
-This is the `SDC Fun` team repo for the capstone project of Udacity's Self-Driving Car Engineer Nanodegree. 
+This is the IndiConcept team repository for capstone project of Udacity's Self-Driving Car Engineer Nanodegree program. The key objective of this project is to do system integration around ROS framework. 
 
-The team members are:
+#### The team members are:
 
- * Rajeev Kumar Sharma (rajeevsharma.phd@gmail.com)
- * Malik Khan ( )
+ * Rajeev Kumar Sharma ( rajeevsharma.phd@gmail.com )
+ * Malik Khan ( mayk9999@gmail.com )
+ 
+### Project Introduction
+For this project, our team designed a fully autonomous vehicle system, initially to be tested out on a simulator, and then on Udacity’s real self-driving car. This project has three parts: 
+(1) Traffic Light detection 
+(2) Control 
+(3) Waypoint Following
+
+In Traffic Light Detection, we designed a detection node that would take the current waypoints of the car and an image taken from the car and determine if the closest traffic light was red or not. For Control, we designed a drive-by-wire (dbw) node that could take the target linear and angular velocities and publish commands for the throttle, brake, and steering of the car. 
+
+Finally, the Waypoint Follower would take information from the traffic light detection and the current waypoints and update the target velocities for each waypoint based on this information
 
 
 ### Building and running the project
-
-The original project repo can be found.,
-which has a lot of information about environment, simulator, etc.
 
 This project requires the GPU version of Tensorflow along with the CUDA and cuDNN libraries, python 2.7, as well as the following libraries defined more specifically in `requirements.txt`:
 
