@@ -49,6 +49,7 @@ cd ros
 catkin_make
 source devel/setup.sh
 roslaunch launch/styx.launch
+```
 
 ### Reference Video Links: 
 (a) Project execution while CAMERA OFF and SDC running in autonomous mode
