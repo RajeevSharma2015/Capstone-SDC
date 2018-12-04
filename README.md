@@ -50,11 +50,12 @@ catkin_make
 source devel/setup.sh
 roslaunch launch/styx.launch
 
-Reference Video Links: 
+### Reference Video Links: 
 (a) Project execution while CAMERA OFF and SDC running in autonomous mode
-    Youtube link :  https://youtu.be/ZHrT34p2jiw.  
+    Youtube link :  https://youtu.be/ZHrT34p2jiw.
+    
 (b) Project execution wjile CAMERA ON, Traffic Light detection ON & Latency observed
     Youtube link : 
 
-Reference Images: 
+### Reference Images: 
 All reference images and project report kept in IMG-DOC folder 
