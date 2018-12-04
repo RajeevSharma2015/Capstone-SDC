@@ -51,16 +51,28 @@ source devel/setup.sh
 roslaunch launch/styx.launch
 ```
 
-### Reference Video Links: 
-(a) Project simulation video - while CAMERA (untick) & Manual (untick). 
-* Here SDC is running in autonomous mode, camera OFF and TL detection is active. 
+### Simulation & Reference Video Links: 
+(a) Project simulation test (video recording) - while CAMERA (Untick) & Manual (Untick). 
+* Here SDC running in autonomous mode, camera OFF and TL detection is disabled. 
 
-```bash
     Youtube link :  https://youtu.be/ZHrT34p2jiw.
- ```
     
-(b) Project execution while CAMERA ON, Traffic Light detection ON & Latency observed
+    ##### Conculsion - Partial Feature Testing 
+    Base_waypoint updator & follower is able to publish point on lane, and controller able to drive SDC smoothly on track. This simulation is tried on Udacity workspace. In this mode no latency observed. 
+   
+(b) Project simulation test (video recording) - while Manual (Untick), CAMERA (Untick) & TL classifier loaded
+* Here SDC running in autonomous mode, Camera ON & Traffic light detection active
+* Setup - Udacity GPU workspace 
+* VGG16 - TL trained classifier used
+
     Youtube link : 
+    
+    #### Conclusion - Fully Loaded Feature Testing
+    * SDC start normally and initiate following waypoints
+    * RED light detection happens, SDC usages braking to stop car
+    * Traffic light change state GREEN, SDC able to detect and manage throttle to drive vehicle
+    * Meanwhile setup latency seems plays significant role and final_waypoint update and following seems get disturbs
+    * Submission and a final trial on Carla seems to be a way forward to test final result.
 
 ### Reference Images: 
 All reference images and project report kept in IMG-DOC folder 
