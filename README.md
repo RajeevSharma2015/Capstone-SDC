@@ -52,10 +52,14 @@ roslaunch launch/styx.launch
 ```
 
 ### Reference Video Links: 
-(a) Project execution while CAMERA OFF and SDC running in autonomous mode
+(a) Project simulation video - while CAMERA (untick) & Manual (untick). 
+* Here SDC is running in autonomous mode, camera OFF and TL detection is active. 
+
+```bash
     Youtube link :  https://youtu.be/ZHrT34p2jiw.
+ ```
     
-(b) Project execution wjile CAMERA ON, Traffic Light detection ON & Latency observed
+(b) Project execution while CAMERA ON, Traffic Light detection ON & Latency observed
     Youtube link : 
 
 ### Reference Images: 
