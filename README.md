@@ -74,11 +74,10 @@ roslaunch launch/styx.launch
     * Meanwhile setup latency seems plays significant role and final_waypoint update and following seems get disturbs
     * Submission and a final trial on Carla seems to be a way forward to test final result.
 
-### Reference Images: 
-Reference images and a project report is kept in IMG-DOC folder.
 
 ### References :
-* 1. 
-* 2. 
-* 3. 
-* 4. 
+* Optimum setting of automated controller reference paper by J.G. ZIEGLER and N. B. NICHOLS • ROCHESTER, N. Y , https://github.com/RajeevSharma2015/Capstone-SDC/blob/master/IMG_DOC/Technical_Papers/AutomotedController.pdf
+* Unified, Small, Low Power Fully Convolutional Neural Networks for Real-Time Object Detection for Autonomous Driving by Bichen Wu, Forrest Iandola, Peter H. Jin, Kurt Keutzer UC Berkeley, DeepScale https://github.com/RajeevSharma2015/Capstone-SDC/blob/master/IMG_DOC/Technical_Papers/DNN_Classifiers.pdf
+* Design of PI and PID Controllers With Transient Performance Specification by J. C. Basilio and S. R. Matos https://github.com/RajeevSharma2015/Capstone-SDC/blob/master/IMG_DOC/Technical_Papers/Path_Controller.pdf
+* Implementation of the Pure Pursuit Path 'hcking Algorithm by R. Craig Conlter https://github.com/RajeevSharma2015/Capstone-SDC/blob/master/IMG_DOC/Technical_Papers/PathTracking.pdf
+* Traffic Light Mapping and Detection by Nathaniel Fairfield Chris Urmson https://github.com/RajeevSharma2015/Capstone-SDC/blob/master/IMG_DOC/Technical_Papers/TrafficLight_Detection.pdf
