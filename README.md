@@ -4,8 +4,8 @@ This is the IndiConcept team repository for capstone project of Udacity's Self-D
 
 #### The team members are:
 
- * Rajeev Kumar Sharma ( rajeevsharma.phd@gmail.com )
- * Malik Khan ( mayk9999@gmail.com )
+ * Rajeev Kumar Sharma ( rajeevsharma.phd@gmail.com , Delhi INDIA)
+ * Malik Khan ( mayk9999@gmail.com , Adelaide Australia)
  
 ### Project Introduction
 For this project, our team designed a fully autonomous vehicle system, initially to be tested out on a simulator, and then on Udacity’s real self-driving car. This project has three parts: 
@@ -76,3 +76,9 @@ roslaunch launch/styx.launch
 
 ### Reference Images: 
 Reference images and a project report is kept in IMG-DOC folder.
+
+### References :
+* 1. 
+* 2. 
+* 3. 
+* 4. 
