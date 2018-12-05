@@ -52,20 +52,12 @@ roslaunch launch/styx.launch
 ```
 
 ### Simulation & Reference Video Links: 
-(a) Project simulation test (video recording) - while CAMERA (Untick) & Manual (Untick). 
-* Here SDC running in autonomous mode, camera OFF and TL detection is disabled. 
-
-    Youtube link :  https://youtu.be/ZHrT34p2jiw.
+(a) Project simulation test (video recording) - while CAMERA (Untick) & Manual (Untick) means here SDC running in autonomous mode, camera OFF and TL detection is disabled. Youtube link for results :  https://youtu.be/ZHrT34p2jiw.
     
-    ##### Conculsion - Partial Feature Testing 
+    ###### Conculsion - Partial Feature Testing 
     Base_waypoint updator & follower is able to publish point on lane, and controller able to drive SDC smoothly on track. This simulation is tried on Udacity workspace. In this mode no latency observed. 
    
-(b) Project simulation test (video recording) - while Manual (Untick), CAMERA (Untick) & TL classifier loaded
-* Here SDC running in autonomous mode, Camera ON & Traffic light detection active
-* Setup - Udacity GPU workspace 
-* VGG16 - TL trained classifier used
-
-    Youtube link : https://youtu.be/2t5HuuquY-8
+(b) Project simulation test (video recording) - while Manual (Untick), CAMERA (Untick) & TL classifier loaded means here SDC running in autonomous mode, Camera ON & Traffic light detection active. Setup used - Udacity GPU workspace & VGG16 - TL trained classifier used. Youtube link for results : https://youtu.be/2t5HuuquY-8
     
     #### Conclusion - Fully Loaded Feature Testing
     * SDC start normally and initiate following waypoints
