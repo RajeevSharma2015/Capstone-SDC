@@ -1,13 +1,14 @@
 # IndiConcept Team
 
 ---
-**IndiConcept Team - SDC Fun**
-This is the IndiConcept team repository for capstone project of Udacity's Self-Driving Car Engineer Nanodegree program. The key objective of this project is to do system integration around ROS framework. 
+
+This is the **IndiConcept team** repository for **capstone project** of udacity's self driving car engineer's Nanodegree program. The key objective of this project is to do system integration around **ROS framework** for **Perception, Planning & Control**. 
 
 [//]: # (References)
 [capstone project]: https://github.com/RajeevSharma2015/Capstone-SDC
 [Rajeev Kumar Sharma]: https://www.projectmanagement.com/profile/RajeevSharma1
 [RajeevMachine-Setup]: ./imgs/RajeevMachine-Setup.jpg
+[TrafficLight Classifier]: https://github.com/RajeevSharma2015/SDC-TrafficLight-Classifier
 
 ---
 
@@ -26,7 +27,9 @@ For [capstone project], our team designed a fully autonomous vehicle system, ini
 (2) Control 
 (3) Waypoint Following
 
-In Traffic Light Detection, we designed a detection node that would take the current waypoints of the car and an image taken from the car and determine if the closest traffic light was red or not. For Control, we designed a drive-by-wire (dbw) node that could take the target linear and angular velocities and publish commands for the throttle, brake, and steering of the car. 
+In Traffic light detection we designed a detection node that would take the current waypoints of the car and an image taken from the car and determine if the closest traffic light was red or not. Herein [TrafficLight Classifier] is a critical element which leverages deep machine learning techniques to train a models. Model training details of light classifier maintained in a seperate repository, please refer link - [TrafficLight Classifier] 
+
+For Control, we designed a drive-by-wire (dbw) node that could take the target linear and angular velocities and publish commands for the throttle, brake, and steering of the car. 
 
 Finally, the Waypoint Follower would take information from the traffic light detection and the current waypoints and update the target velocities for each waypoint based on this information
 
