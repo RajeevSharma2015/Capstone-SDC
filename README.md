@@ -1,16 +1,27 @@
 # IndiConcept Team
 
+---
+**IndiConcept Team - SDC Fun**
 This is the IndiConcept team repository for capstone project of Udacity's Self-Driving Car Engineer Nanodegree program. The key objective of this project is to do system integration around ROS framework. 
+
+[//]: # (References)
+[capstone project]: https://github.com/RajeevSharma2015/Capstone-SDC
+[Rajeev Kumar Sharma]: https://www.projectmanagement.com/profile/RajeevSharma1
+[RajeevMachine-Setup]: ./imgs/RajeevMachine-Setup.jpg
+
+---
 
 #### The team members are:
 
- * Rajeev Kumar Sharma ( rajeevsharma.phd@gmail.com , Delhi INDIA)
+ * [Rajeev Kumar Sharma] ( rajeevsharma.phd@gmail.com , Delhi-NCR, Gurugram - INDIA)
  * Malik Khan ( mayk9999@gmail.com , Adelaide Australia)
  
 #### TrafficLight Detection Repository - https://github.com/RajeevSharma2015/SDC-TrafficLight-Classifier
- 
+
+[![Watch the video](https://github.com/RajeevSharma2015/SDC-TrafficLight-Classifier/blob/master/imgs/Demo-video.jpg)](https://drive.google.com/file/d/1Du3cXVXHL_ID5WRZXZHLBlgcwzkiq7bc/view?usp=sharing)
+
 ### Project Introduction
-For this project, our team designed a fully autonomous vehicle system, initially to be tested out on a simulator, and then on Udacity’s real self-driving car. This project has three parts: 
+For [capstone project], our team designed a fully autonomous vehicle system, initially to be tested out on a simulator, and then on Udacity’s real self-driving car. This project has three parts: 
 (1) Traffic Light detection 
 (2) Control 
 (3) Waypoint Following
