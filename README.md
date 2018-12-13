@@ -19,9 +19,11 @@ This is the **IndiConcept team** repository for **capstone project** of udacity'
  * Malik Khan ( mayk9999@gmail.com , Adelaide Australia)
  
  
-#### TrafficLight Detection Repository - https://github.com/RajeevSharma2015/SDC-TrafficLight-Classifier
+#### TrafficLight Detection Repository:
+https://github.com/RajeevSharma2015/SDC-TrafficLight-Classifier
 
-#### IndiConcept Team Project Report - https://github.com/RajeevSharma2015/Capstone-SDC/blob/master/IMG_DOC/IndiConcept_ProjectReport.pdf
+#### IndiConcept Team Project Report:
+https://github.com/RajeevSharma2015/Capstone-SDC/blob/master/IMG_DOC/IndiConcept_ProjectReport.pdf
 
 
 
