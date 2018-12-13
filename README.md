@@ -12,14 +12,22 @@ This is the **IndiConcept team** repository for **capstone project** of udacity'
 
 ---
 
+
 #### The team members are:
 
  * [Rajeev Kumar Sharma] ( rajeevsharma.phd@gmail.com , Delhi-NCR, Gurugram - INDIA)
  * Malik Khan ( mayk9999@gmail.com , Adelaide Australia)
  
+ 
 #### TrafficLight Detection Repository - https://github.com/RajeevSharma2015/SDC-TrafficLight-Classifier
 
+#### IndiConcept Team Project Report - https://github.com/RajeevSharma2015/Capstone-SDC/blob/master/IMG_DOC/IndiConcept_ProjectReport.pdf
+
+
+
 [![Watch the video](https://github.com/RajeevSharma2015/SDC-TrafficLight-Classifier/blob/master/imgs/Demo-video.jpg)](https://drive.google.com/file/d/1Du3cXVXHL_ID5WRZXZHLBlgcwzkiq7bc/view?usp=sharing)
+
+
 
 ### Project Introduction
 For [capstone project], our team designed a fully autonomous vehicle system, initially to be tested out on a simulator, and then on Udacity’s real self-driving car. This project has three parts: 
